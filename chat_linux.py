@@ -12,11 +12,13 @@ print("\n\t\tSO FRIEND LET'S START CHATTING \n")
 print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n")
 
 
-your_ip = input("ENTER THE YOUR IP ADDRESS HERE : \n")
-your_port = int(input("ENTER THE YOUR PORT NUMBER HERE : \n"))
+your_ip = input("ENTER THE YOUR IP ADDRESS HERE : ")
 
-frd_ip = input("ENTER THE FRIEND IP ADDRESS HERE : \n")
-frd_port = int(input("ENTER THE FRIEND PORT NUMBER HERE : \n"))
+your_port = int(input("ENTER THE YOUR PORT NUMBER HERE : "))
+
+frd_ip = input("ENTER THE FRIEND IP ADDRESS HERE : ")
+
+frd_port = int(input("ENTER THE FRIEND PORT NUMBER HERE : "))
 
 # TO CREATE A SOCKET AND BIND IP AND PORT NUMBER :
 
