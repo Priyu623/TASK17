@@ -12,9 +12,11 @@ print("\t\t SO FRIEND LET'S START OUR CHATTING \n")
 print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n")
 
 your_ip = input("ENTER THE YOUR IP ADDRESS HERE : ")
+
 your_port = int(input("ENTER THE YOUR PORT NUMBER HERE : "))
 
 frd_ip = input("ENTER THE FRIEND IP ADDRESS HERE :")
+
 frd_port = int(input("ENTER THE FRIEND PORT NUMBER HERE : "))
 print("\n")        
 
