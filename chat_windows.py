@@ -6,15 +6,11 @@ os.system("cls")
 
 os.system("color 6")
 title = pyfiglet.figlet_format("\t ! WELCOME TO MY UDP CHAT APP FROM WINDOWS ! \n")
-
 print( title)
-print("#####################################################################")
-print("\n")
-print("\n\t\t SO FRIEND LET'S START OUR CHATTING")
-print("\n")
-print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+print(" \n ##################################################################### \n")
+print("\t\t SO FRIEND LET'S START OUR CHATTING \n")
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n")
 
-print("\n")
 your_ip = input("ENTER THE YOUR IP ADDRESS HERE : ")
 your_port = int(input("ENTER THE YOUR PORT NUMBER HERE : "))
 
@@ -58,3 +54,4 @@ t2 = thread.Thread(target=recieve_msg)
 # WE CAN USE THIS FUNCTION TO STARTING OUR THREADS :
 t1.start()
 t2.start()
+
