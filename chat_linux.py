@@ -30,7 +30,7 @@ skt2.bind((your_ip, your_port))
 
 def recieve_msg():
     while True:
-        os.system("tput setaf 5")
+        os.system("tput setaf 2")
         msgRcv = skt2.recvfrom(1024)
         if msgRcv[0].decode() == "quit" or msgRcv[0].decode() == "bye bye" or msgRcv[0].decode() == "exit":
             print("NOW YOUR FRIEND GOES OFFLINE.....")
