@@ -4,7 +4,7 @@ import os
 import pyfiglet
 os.system("clear")
 
-os.system("tput setaf 3")
+os.system("tput setaf 6")
 title = pyfiglet.figlet_format("\t\t! WELCOME TO MY UDP CHAT APP FROM  LINUX ! \n")
 print(title)
 print("\n ####################################################################### \n")
