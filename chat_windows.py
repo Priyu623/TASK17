@@ -4,15 +4,14 @@ import os
 import pyfiglet
 os.system("cls")
 
-os.system("color 5")
-title = pyfiglet.figlet_format("\t ! WELCOME TO MY UDP CHAT APP FROM WINDOWS !")
-os.system("color 3")
+os.system("color 6")
+title = pyfiglet.figlet_format("\t ! WELCOME TO MY UDP CHAT APP FROM WINDOWS ! \n")
+
 print( title)
 print("#####################################################################")
-
-os.system("color 9")
-print("\n\t\tSO FRIEND LET'S START OUR CHATTING")
-os.system("color 3")
+print("\n")
+print("\n\t\t SO FRIEND LET'S START OUR CHATTING")
+print("\n")
 print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
 
 print("\n")
@@ -59,4 +58,3 @@ t2 = thread.Thread(target=recieve_msg)
 # WE CAN USE THIS FUNCTION TO STARTING OUR THREADS :
 t1.start()
 t2.start()
-
