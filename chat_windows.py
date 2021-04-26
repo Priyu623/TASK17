@@ -12,11 +12,11 @@ print("\t\t SO FRIEND LET'S START OUR CHATTING \n")
 print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n")
 
 your_ip = input("ENTER THE YOUR IP ADDRESS HERE : ")
-
+print("\n")
 your_port = int(input("ENTER THE YOUR PORT NUMBER HERE : "))
-
+print("\n")
 frd_ip = input("ENTER THE FRIEND IP ADDRESS HERE :")
-
+print("\n")
 frd_port = int(input("ENTER THE FRIEND PORT NUMBER HERE : "))
 print("\n")        
 
@@ -48,12 +48,14 @@ def send_msg():
             os._exit(1)
 
 # WE CAN USE THIS THREAD FOR SENDING THE MESSAGE FUNCTION :
+
 t1= thread.Thread(target=send_msg)
 
 # WE CAN USE THIS THREAD FOR RECIEVING THE MESSAGE FUNCTION :
+
 t2 = thread.Thread(target=recieve_msg)
 
 # WE CAN USE THIS FUNCTION TO STARTING OUR THREADS :
+
 t1.start()
 t2.start()
-
